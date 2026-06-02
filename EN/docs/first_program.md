@@ -33,9 +33,11 @@ Try typing these statements in the code window and pressing the execute button.
 
 You can think of your code as a sequence of statements. You can run multiple statements in a row like this:
 
-`harvest()
+```
+harvest()
 do_a_flip()
-harvest()`
+harvest()
+```
 
 ## Unlocks
 Collecting grass will give you hay. Hay can be used to unlock loops in the unlock menu. Open the unlock menu with the button in the top right corner.
