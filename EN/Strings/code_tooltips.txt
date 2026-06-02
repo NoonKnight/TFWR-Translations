@@ -318,10 +318,13 @@ returns `{}` when used on an upgradeable unlock that is already at the max level
 takes `1` tick to execute.
 
 example:
-`cost = get_cost(Unlocks.Carrots)
+```
+cost = get_cost(Unlocks.Carrots)
 for item in cost:
     if num_items(item) < cost[item]:
-        print("not enough items to unlock carrots")`
+        print("not enough items to unlock carrots")
+```
+For more related information see: [Costs](docs/unlocks/costs.md)
 @code_tooltip_clear = `clear()` 
 Removes everything from the farm, moves the drone back to position `(0,0)` and changes the hat back to the straw hat.
 
